@@ -43,6 +43,7 @@
             this.Cadastrar.TabIndex = 0;
             this.Cadastrar.Text = "Cadastrar";
             this.Cadastrar.UseVisualStyleBackColor = true;
+            this.Cadastrar.Click += new System.EventHandler(this.Cadastrar_Click);
             // 
             // Consultar
             // 
@@ -52,6 +53,7 @@
             this.Consultar.TabIndex = 1;
             this.Consultar.Text = "Consultar";
             this.Consultar.UseVisualStyleBackColor = true;
+            this.Consultar.Click += new System.EventHandler(this.Consultar_Click);
             // 
             // Atualizar
             // 
@@ -61,6 +63,7 @@
             this.Atualizar.TabIndex = 2;
             this.Atualizar.Text = "Atualizar";
             this.Atualizar.UseVisualStyleBackColor = true;
+            this.Atualizar.Click += new System.EventHandler(this.Atualizar_Click);
             // 
             // Excluir
             // 
@@ -70,6 +73,7 @@
             this.Excluir.TabIndex = 3;
             this.Excluir.Text = "Excluir";
             this.Excluir.UseVisualStyleBackColor = true;
+            this.Excluir.Click += new System.EventHandler(this.Excluir_Click);
             // 
             // label1
             // 

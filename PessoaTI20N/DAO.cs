@@ -25,7 +25,6 @@ namespace PessoaTI20N
             try
             {
                 conexao.Open();//abrir a conexão
-                MessageBox.Show("Conectado!");
             }
             catch(Exception ex) 
             {
@@ -75,7 +74,7 @@ namespace PessoaTI20N
         }//Fim do quantidade de dados
         public string Atualizar(long cpf, string nomeTabela,string campo, string dado)
         {
-            string query = $"updade {nomeTabela} set {campo} = '{dado}' where cpf = '{cpf}'";
+            string query = $"update {nomeTabela} set {campo} = '{dado}' where cpf = '{cpf}'";
             MySqlCommand sql = new MySqlCommand(query, conexao);
             string resultado = sql.ExecuteNonQuery() + " Atualizado!";
             return resultado;
